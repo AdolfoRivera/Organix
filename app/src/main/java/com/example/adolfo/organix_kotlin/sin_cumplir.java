@@ -10,6 +10,7 @@ public class sin_cumplir extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sin_cumplir);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("No Cumplido");
     }
 
     @Override

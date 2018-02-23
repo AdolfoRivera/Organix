@@ -10,6 +10,7 @@ public class calendario extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calendario);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Calendario");
     }
 
     @Override

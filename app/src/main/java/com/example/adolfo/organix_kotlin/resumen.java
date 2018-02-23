@@ -10,6 +10,7 @@ public class resumen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resumen);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        setTitle("Resumen");
     }
 
     @Override
