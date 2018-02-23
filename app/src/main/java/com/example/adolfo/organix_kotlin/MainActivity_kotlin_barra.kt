@@ -59,25 +59,34 @@ class MainActivity_kotlin_barra : AppCompatActivity(), NavigationView.OnNavigati
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         // Handle navigation view item clicks here.
         when (item.itemId) {
-            R.id.nav_camera -> {
+            R.id.nav_tomar_nota -> {
                 // Handle the camera action
                 val siguiente = Intent(this, tomar_foto::class.java)
                 startActivity(siguiente)
             }
-            R.id.nav_gallery -> {
-
+            R.id.nav_resumen -> {
+                val siguiente1 = Intent(this, resumen::class.java)
+                startActivity(siguiente1)
             }
-            R.id.nav_slideshow -> {
-
+            R.id.nav_agenda -> {
+                val siguiente2 = Intent(this, agenda::class.java)
+                startActivity(siguiente2)
             }
-            R.id.nav_manage -> {
-
+            R.id.nav_calendario -> {
+                val siguiente3 = Intent(this, calendario::class.java)
+                startActivity(siguiente3)
+            }
+            R.id.nav_notificaciones -> {
+                val siguiente4 = Intent(this, notificaciones::class.java)
+                startActivity(siguiente4)
+            }
+            R.id.nav_sin_cumplir -> {
+                val siguiente5 = Intent(this, sin_cumplir::class.java)
+                startActivity(siguiente5)
             }
             R.id.nav_share -> {
-
             }
             R.id.nav_send -> {
-
             }
         }
 
