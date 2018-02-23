@@ -20,6 +20,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".tomar_foto" />
+        <activity android:name=".resumen" />
+        <activity android:name=".agenda" />
+        <activity android:name=".calendario" />
+        <activity android:name=".notificaciones" />
+        <activity android:name=".sin_cumplir" />
     </application>
 
 </manifest>
